@@ -7,7 +7,7 @@ import javax.ws.rs.core.Response;
 
 //http://localhost:8080/RESTfulExample/rest/message/custom%20message
 @Path("/message")
-public class MessageRestService {
+public class MessageGetRestService {
 
 	@GET
 	@Path("/{param}")
